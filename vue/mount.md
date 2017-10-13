@@ -8,7 +8,7 @@
     </div>
 </body>
 ```
-```react
+```vue
 <script src="vue.js"></script>
 <script>
     new Vue({
