@@ -1,5 +1,5 @@
-#브라우저 레이아웃 엔진
-####DOM(Documeny Object Model)
+# 브라우저 레이아웃 엔진
+#### DOM(Documeny Object Model)
 * 객체를 통해서 구조화된 문서를 표현하는 방법
 * xml 또는 html로 작성
 * 트리형태로 되어있어서, 원하는 곳에 특정 노드를 추가하거나 삭제 할 수 있다
