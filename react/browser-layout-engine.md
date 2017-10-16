@@ -50,7 +50,8 @@ document.body.appendChild(document.createTextNode('hello world!'));
             two.style.margin ='100px';
             console.log(one.clientHeight);
             two.style.height ='100px';
-            // three reflows, one repaint}
+            // three reflows, one repaint
+        }
     </script>
 </body>
 ```
