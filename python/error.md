@@ -18,3 +18,5 @@
 * 구문 에러, 철자법, 괄호, 따옴표, 점, 콜론(:) 같은 특수 기호를 확인
 #### SyntaxError: expected an indented block
 * 구문 에러, 반복 블록에서 들여쓰기를 제대로 하지 않았을 때 발생
+#### SyntaxError: unindent does not match any outher indentaiton level
+* 구문 에러, 반복 블록에서 들여쓰기가 일정하지 않거나 블록이 겹칠 때 들여쓰기 칸 수가 맞지 않아 발생하는 에러
