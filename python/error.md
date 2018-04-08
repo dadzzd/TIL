@@ -14,3 +14,7 @@
 * 타입 에러
 #### TurtleGraphicError: bad color string ...
 * 거북이 색상 에러, 거북이 색을 지정할때 생기는 에러
+#### SyntaxError: invalid syntax
+* 구문 에러, 철자법, 괄호, 따옴표, 점, 콜론(:) 같은 특수 기호를 확인
+#### SyntaxError: expected an indented block
+* 구문 에러, 반복 블록에서 들여쓰기를 제대로 하지 않았을 때 발생
