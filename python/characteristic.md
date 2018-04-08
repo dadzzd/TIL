@@ -7,8 +7,8 @@
     * right -> rt: 오른쪽 회전
     * color : 색상
     * pensize : 굵기
-*   ```python
-    import turtle as t
-    t.forward(50)
-    t.right(90)
-    ```ㄴ
+     ```python
+     import turtle as t
+     t.forward(50)
+     t.right(90)
+     ```
