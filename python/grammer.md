@@ -23,3 +23,11 @@
     list(range(1,4))
     [1,2,3]
     ```
+* 입출력
+    * input
+    ```python
+    name = input("Your name? ")
+    print("Hello", name)
+    Your name? 김길벗
+    Hello 김길벗
+    ```
