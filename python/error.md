@@ -20,3 +20,5 @@
 * 구문 에러, 반복 블록에서 들여쓰기를 제대로 하지 않았을 때 발생
 #### SyntaxError: unindent does not match any outher indentaiton level
 * 구문 에러, 반복 블록에서 들여쓰기가 일정하지 않거나 블록이 겹칠 때 들여쓰기 칸 수가 맞지 않아 발생하는 에러
+#### ValueError: invalid literal for int() with base ...
+* 사용자 값 입력 오류
