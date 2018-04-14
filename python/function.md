@@ -32,3 +32,51 @@ abc
 ```python
 num = random.randint(1,10)
 ```
+####리스트(List) 다양한 값들을, 순서대로 저장
+#####index 리스트의 값에 접근한다
+```python
+a = [1,2,3,4]
+a[0]
+a[1]
+a[3]
+```
+#####리스트의 값을 변경한다
+```python
+a = [1,2,3,4]
+a[0] = 5
+[5,2,3,4]
+```
+#####list.append() 리스트를 추가 한다
+```python
+a = [1,2,3]
+a.append(4)
+a
+[1,2,3,4,]
+```
+#####list.del 리스트의 값을 제거 한다
+```python
+a = [1,2,3,4]
+del a[0]
+2,3,4
+```
+#####list.slice(start, end, step) 리스트의 값을 선택해서 자른다
+```python
+a = [1,2,3,4]
+a[slice(1,3)]
+[2,3]
+a[slice(1,10,3)] = a=[1:10:3]
+a[:] == a[slice(None, None)]
+```
+####딕셔너리(dict) 다양한 값들을 key:value 사전 형태 저장하는 구조
+```python
+{ 'name':'sol', 'phone':'010-1234-1234'}
+dict(name='sol', phone='010-1234-1234'}
+```
+#####dict[key] 딕셔너리의 값에 접근한다
+```python
+dict[name]
+```
+#####del dict[key] 딕셔너리의 값을 제거한다
+```python
+dek dict[name]
+```
