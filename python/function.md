@@ -27,3 +27,8 @@ ABC
 'ABC'.lower()
 abc
 ```
+####random
+#####random.randint(a,b)a부터 b까지의 정수를 랜덤으로 하나 뽑는다
+```python
+num = random.randint(1,10)
+```
