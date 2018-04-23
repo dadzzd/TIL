@@ -1,40 +1,40 @@
 특징
 ====
-* 대문자와 소문자를 구분
-* 거북이 그래픽 모듈
-    * 1960년대 Logo라는 프로그래밍 언어의 일부로 개발된 컴퓨터 그래픽 방식
-    * shape(모양)
-        * t.shape("classic"), t.shape("trutle"), t.shape("triangle")
-    * forward(거리) -> fd: 전진
-    * left(각도) -> lt: 왼쪽 회전
-    * right(각도) -> rt: 오른쪽 회전
-    * circle(반지름) : 원 그리기
-    * down() / pendown() : 꼬리 내리기
-    * up() / penup() : 꼬리 올리기
-    * speed(속도) : 거북이 속도
-        * t.speed(1) : 가장 느린 속도, t.speed(10) : 빠른 속도, t.speed(0) : 최고 속도
-    * color(색 이름) : 색상 바꾸기
-    * bgcolor(색 이름) : 배경색 바꾸기
-    * fillcolor(색 이름) : 도형 내부 색 바꾸기
-    * begin_fill() : 도형 내부 색칠 준비
-    * end_fill() : 도형 내부 색칠
-    * showturtle() / st() : 거북이를 화면에 표시
-    * hidentrutle() / ht() : 거북이를 화면에서 숨김
-    * clear() : 거북이를 둔 채 화면을 지움
-    * reset() : 화면을 지우고 거북이도 원래 자리와 상태로 되돌림
-    * pensize : 굵기
+#### 대문자와 소문자를 구분
+##### 거북이 그래픽 모듈
+    1960년대 Logo라는 프로그래밍 언어의 일부로 개발된 컴퓨터 그래픽 방식
+    shape(모양)
+        t.shape("classic"), t.shape("trutle"), t.shape("triangle")
+    forward(거리) -> fd: 전진
+    left(각도) -> lt: 왼쪽 회전
+    right(각도) -> rt: 오른쪽 회전
+    circle(반지름) : 원 그리기
+    down() / pendown() : 꼬리 내리기
+    up() / penup() : 꼬리 올리기
+    speed(속도) : 거북이 속도
+        t.speed(1) : 가장 느린 속도, t.speed(10) : 빠른 속도, t.speed(0) : 최고 속도
+    color(색 이름) : 색상 바꾸기
+    bgcolor(색 이름) : 배경색 바꾸기
+    fillcolor(색 이름) : 도형 내부 색 바꾸기
+    begin_fill() : 도형 내부 색칠 준비
+    end_fill() : 도형 내부 색칠
+    showturtle() / st() : 거북이를 화면에 표시
+    hidentrutle() / ht() : 거북이를 화면에서 숨김
+    clear() : 거북이를 둔 채 화면을 지움
+    reset() : 화면을 지우고 거북이도 원래 자리와 상태로 되돌림
+    pensize : 굵기
      ```python
      import turtle as t
      t.forward(50)
      t.right(90)
      ```
-* 연산
-    * 더하기 
-        ```python
-        7+4
-        11
-        ```
-    * 빼기
+#### 연산
+##### 더하기 
+```python
+7+4
+11
+```
+##### 빼기
         ```python
         7-4
         3
