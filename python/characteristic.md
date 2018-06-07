@@ -74,9 +74,9 @@
         5+(4*(3+(1+2)))
         29
         ```
-* 변수
-    * 변수 이름은 영문 대/소문자, 숫자, 밑줄(_)로만 만들 수 있다. 공백 사용 불가
-    * 영문 대/소문자를 구분
-    * 변수 이름은 숫자로 시작할 수 없다.
-    * 파이썬 문법으로 사용하는 단어는 사용할 수 없다.
-        * False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield 등
+#### 변수
+    변수 이름은 영문 대/소문자, 숫자, 밑줄(_)로만 만들 수 있다. 공백 사용 불가
+    영문 대/소문자를 구분
+    변수 이름은 숫자로 시작할 수 없다.
+    파이썬 문법으로 사용하는 단어는 사용할 수 없다.
+        False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield 등
