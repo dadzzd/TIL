@@ -10,8 +10,16 @@
         변수에 값을 저장하는 법
             대입연산자(=)를 활용
         콤마(,)를 활용해 여러 변수를 동시에 선언, 초기화 가능
-```javascript 1.6
+```js
 var variable_name;
 variable_name = value;
 ```
-    
+#### 변수의 활용
+    변수의 이름을 사용하면 변수의 값을 읽어서 사용 가능
+```js
+var var1 = "1", var2 = "2", var3 = "3";
+
+console.log(var1);
+alert(var2);
+prompt(var3);
+```
