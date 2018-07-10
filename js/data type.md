@@ -10,9 +10,24 @@
 ```js
 var a = 100, b = 3.14, c = 1e-3;
 ```
-##### string Type: 문자열
+##### String
+    작은 따옴표나('), 큰따옴표(")로 감싸서 문자열을 표현
+    문자열 안에 따옴표, 큰따옴표 등의 문자를 활용 하려면 이스케이프 문자 활용
+    이스케이프 문자 역슬래시(\) 사용
+    줄바꿈 \n
+    작은 따옴표 \'
+    큰따옴표 \"
+    역슬래시 \\
 ```js
-var c = "안녕하세요", d = "a";
+var a = 'abcde';
+var b = "abcde";
+var c = "abc'de";
+var d = 'abc"de';
+var e = "ab\'c\"de";
+var f = 'ab\'c\"de';
+var g = "\\abcde";
+var h = "abc\nde";
+var i = a+b;
 ```
 ##### boolean Type: 참거짓
 ```js
