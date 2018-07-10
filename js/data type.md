@@ -29,7 +29,8 @@ var g = "\\abcde";
 var h = "abc\nde";
 var i = a+b;
 ```
-##### boolean Type: 참거짓
+##### Boolean
+    참 거짓
 ```js
 var e = true, f = false;
 ```
