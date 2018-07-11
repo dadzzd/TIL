@@ -41,13 +41,7 @@
         - 속성의 값은 모든 자료형이 가능, object 포함
     + 객체 속성 접근
         - 마침표 이용방법 `객체이름.속성이름, object.propertyname`
-        ```js
-
-        ```
         - 대괄호 이용방법 `객체이름[속성이름], object["propertyname"]`
-        ```js
-
-        ```
     + 객체 속성 값 변경    
         객체 속성에 접근해서 변수에 값을 저장하듯이 사용
         ```js
@@ -56,3 +50,33 @@
         var b = { name:"a", age:1 };
         b["age"] = 2;
         ```
+5. #### undefined
+    시스템에서 어떤 변수나 속성이 정의되지 않은 경우를 표현하기 위해 사용
+    + 선언만 하고 초기화가 되지 않는 변수의 타입이나 값
+    + 객체의 정의되지 않는 속성의 타입이나 값
+    ```js
+    var uninitialized_var;
+    > uninitialized_var;
+    < undefined
+    > typeof(uninitialized_var);
+    < "undefined"
+ 
+    var obj = { x:1, y:2 };
+    > obj.z;
+    < undefined
+    > typeof(obj.z);
+    < "undefined"
+    ```
+6. #### null
+    개발자가 명시적으로 아무것도 없이 비어있는 상태를 나타낼 때 사용
+    + typeof의 결과는 object이며, 값은 null
+    ```js
+    > var null_var;
+    < undefined
+    > null_var = null;
+    < null
+    > null_var;
+    < null
+    > typeof(null_var);
+    < "object"
+    ```
