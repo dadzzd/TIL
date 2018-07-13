@@ -116,7 +116,7 @@ var str = "Hello";
   
         > str.substr(-7, 2)
         < "de"
-    ```
+        ```
 ### 문자열 검색
 1. `indexOf(str)` 문자열이 처음으로 나오는 위치
     ```js
