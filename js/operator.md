@@ -54,6 +54,7 @@ False | False | False
 
 #### OR(||) 연산자
 두 피연산자가 하나라도 true 인 경우 true 를 나타내는 이항연산자
+
 True | False
 ------|------
 True | True | True
