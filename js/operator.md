@@ -31,3 +31,33 @@ console.log(b);
 < 1
 < 2
 ```
+### 관계 연산자 (Relational operator)
+두 표현식(A,B)의 관계를 비교하는 이항연산자. 관계에 따라 boolean 타입의 true, false 로 표현
+
+관계연산자 | 동작 | True | False
+-----------|------|------|------
+< | A보다 B가 더 큰 경우 참 | 3<5 | 3<3
+> | A보다 B가 더 작은 경우 참 | 5>3 | 3>3
+<= | A보다 B가 크거나 같은 경우 참 | 3<=3 | 4<=3
+\>= | A보다 B가 작거나 같은 경우 참 | 3>=3 | 3>=4
+== | A와 B가 같은 경우 참 | 3==3 | 4==3
+!= | A와 B가 같지 않은 경우 참 | 3!=4 | 3!=3
+### 논리 연산자 (Logical operator)
+두개의 boolean 피연산자에 대해 논리적으로 연산하는 연산자. 관계에 따라 boolean 타입의 true, false 로 표현
+#### AND(&&) 연산자
+두 피연산자가 모두 true 인 경우에만 true 를 나타내는 이항연산자
+
+ | True | False
+-|------|------
+True | True | False
+False | False | False
+
+#### OR(||) 연산자
+두 피연산자가 하나라도 true 인 경우 true 를 나타내는 이항연산자
+ | True | False
+-|------|------
+True | True | True
+False | True | False
+
+#### NOT(!) 연산자
+피연산자가 true 인 경우 false, false 인 경우 true 를 나타내는 단항연산자
