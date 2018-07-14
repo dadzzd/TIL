@@ -58,7 +58,7 @@
     > [0,2,3,4,6]
     ```
 ### 배열 붙이기, 검색하기
-+ `arr1.concat(arr2)` : arr1과 arr2 붙이기
++ `arr1.concat(arr2)` : `arr1`과 `arr2` 붙이기
     ```js
     var arr1 = [1,2,3];
     var arr2 = [4,5,6];
@@ -72,26 +72,26 @@
     > arr3;
     < [1,2,3,4,5,6]
     ```
-    - concat(), push() 명령어 차이
+    - `concat()`, `push()` 명령어 차이
         ```js
         > arr1.concat(arr2);
         < [1,2,3,4,5,6]
         > arr1.push(arr2);
         < [1,2,3,[4,5,6]]
         ```
-+ `arr.indexOf(element)` : arr에서 element가 있는 첫 위치를 검색
++ `arr.indexOf(element)` : `arr`에서 `element`가 있는 첫 위치를 검색
     ```js
     var arr4 = [1,2,3,1,2,3];
     > arr4.indexOf(2);
     < 1
     ```
-+ `arr.lastIndexOf(element)` : arr에서 element가 있는 마지막 위치를 검색
++ `arr.lastIndexOf(element)` : `arr`에서 `element`가 있는 마지막 위치를 검색
     ```js
     > arr4.lastIndexOf(2);
     < 4
     ```
 ### 문자열 split
-문자열을 구분자(separator)로 나눠서 각각을 담은 배열을 반환하는 함수
+문자열을 `구분자(separator)`로 나눠서 각각을 담은 배열을 반환하는 함수
 ```js
 var str = "1,2,3,4,5";
 arr = str.split(",");
@@ -99,8 +99,10 @@ arr = ["1", "2", "3", "4", "5"];
 
 > "1-2-3-4-5".split("-");
 < ["1", "2", "3", "4", "5"]
+
 > "1a2a3a4a5a".split("a");
 < ["1", "2", "3", "4", "5"]
+
 > "1,2,3,4,5".split(",");
 < ["1", "2", "3", "4", "5"]
 ```
