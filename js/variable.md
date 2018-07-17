@@ -64,3 +64,22 @@ function test() {
     console.log("typeof(i) outside the block:", typeof (i));
 }
 ```
+### shadowing (셰도잉)
++ 함수 바깥에서 선언한 변수와 이름이 같은 변수를 함수 안에서도 사용하는 경우 , 함수 바깥에 있는 변수는 잠시 가려진다.(변수 가림 현상을 셰도잉 효과라고 한다)
++ 함수 안에서는 해당 함수에서 선언한 변수를 사용할 수 있다.(함수 바깥에 있는 가려진 변수의 값은 변하지 않는다)
++ 함수에서 빠져나오면 다시 해당 영역에서 선언한 변수(함수 바깥에 있는 변수)에 접근할 수 있다
++ 함수 안에서만 값이 유지되어야 하는 변수는 그 함수 안에서 var 키워드로 선언하고 사용한다
+```js
+function shadowing_example() {
+    var val = 5;
+    console.log("F", val);
+    val++;
+}
+
+var val = 0;
+shadowing_example();
+console.log("o", val);
+
+< F 5
+< o 0
+```
