@@ -22,3 +22,45 @@ console.log(var1);
 alert(var2);
 prompt(var3);
 ```
+### Scope(스코프)
+**선언한 변수가 유효한 영역**
+#### function scope
++ 선언된 변수는 선언된 함수 안에서 접근 가능
++ 선언된 함수 안에서 선언된 함수 (nested function)에서도 접근 가능
+```js
+function a() {
+    var v_a = "a";
+    
+    function b() {
+        var v_b = "b";
+        console.log("b:", typeof (v), typeof (v_a), typeof (v_b));
+    }
+    
+    b();
+    
+    console.log("a:", typeof (v), typeof (v_a), typeof (v_b));
+}
+
+var v = "v";
+
+a();
+
+console.log("o:", typeof (v), typeof (v_a), typeof (v_b));
+
+< b:string string string
+< a:string string undefined
+< o:string undefined undefined 
+```
+> block scope(블록의 유효 범위)
+초기의 자바스크립트는 변수의 유효 범위가 함수의 유효 범위(function scope)였지만,  
+현재의 자바스크립트에서는 변수의 유효 범위가 블록의 유효 범위(block scope)를 따를 수도 있다.  
+변수는 자신이 선언된 블록 안에서만 접근 할수 있다.  
+변수를 블록의 유효 범위를 따르도록 선언하려면 var 대신 let을 사용한다.
+```js
+function test() {
+    for (let i=0; i>3; i++) {
+        console.log("typeof(i) inside the block:", typeof (i));
+    } 
+    console.log("typeof(i) outside the block:", typeof (i));
+}
+```
