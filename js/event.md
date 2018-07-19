@@ -27,7 +27,7 @@
 + click : mouse event로 HTML element를 마우스로 클릭한 경우 발생
 + change : form event로 form 엘리먼트의 내용이 변경된 경우 발생
 + keydown : key event로 key가 눌린 경우 발생
-    - EventHAndler에서 return false 시 키 입력 비활성
+    - EventHandler에서 return false 시 키 입력 비활성
     - 실제로는 keydown event -> keypress event -> key event 순으로 이벤트가 발생하며, keypress event 발생시에 키가 입력된다.  
     keydown event 에서 return false 를 한경우 keypress event가 이어서 발생하지 않는다
 + submit : form 태그의 submit 이벤트
@@ -47,8 +47,9 @@ document.getElementById("form1").onsubmit = function eventHandler() {
 };
 ```
 ### addEventListner
-+ element의 addEventListener(이벤트, 함수) 메소드를 호출해, eventHandler 등록
++ element의 addEventListener(이벤트, 함수) 메소드를 호출, eventHandler 등록
     - 여러개의 이벤트 핸들러를 등록할 수 있다
+    - `on`을 붙이지 않고 이벤트 이름만 문자열로 입력한다
 ```js
 document.getElementById("idName").addEventListener(
     "submit",
@@ -59,4 +60,4 @@ document.getElementById("idName").addEventListener(
 );
 ```
 ### removeEventListener
-+ element의 removerEventListener(이벤트, 함수) 메소드를 호출해, eventHandler 삭제
++ element의 removerEventListener(이벤트, 함수) 메소드를 호출, eventHandler 삭제
