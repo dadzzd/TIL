@@ -1,7 +1,7 @@
 이벤트
 ======
 ### Callback Function
-> 조건을 등록하고 그 조건이 만족했을 때, 호출되는 함
+> 조건을 등록하고 그 조건이 만족했을 때, 호출되는 함수
 #### setTimeout(function, time)
 + time 시간이 지난경우 function 함수를 콜백하는 함수
 + millisecond(1/1000초) 단위
@@ -60,4 +60,3 @@ document.getElementById("idName").addEventListener(
 ```
 ### removeEventListener
 + element의 removerEventListener(이벤트, 함수) 메소드를 호출해, eventHandler 삭제
-
