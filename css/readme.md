@@ -1,5 +1,5 @@
 CSS
-===
+====
 > Cascading Style Sheet
 + CSS는 HTML 문서의 요소가 어떻게 표시될지 정의
 + CSS를 작성할 때는 [선택자] {[속성 이름]:[값];...} 형태로 사용
